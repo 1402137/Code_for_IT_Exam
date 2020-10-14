@@ -1,4 +1,4 @@
-//the armstrong number  is the sum of cubes of each digit is equal to the number itself
+//the armstrong number  is the sum of cubes of each digit is equal to the number itself like,370=3*3*3+7*7*7+1*181
 #include <stdio.h>
 int main() {
     int num, originalNum, remainder, result = 0;

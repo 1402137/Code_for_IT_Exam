@@ -1,9 +1,9 @@
-
+//A palindrome number/string is a number/string that is equal to its reverse
 #include<stdio.h>
 #include <string.h>
 
    int main(){
-      //char string1[]={"naman"};
+      
       char string1[100];
       printf("Enter a string for pilindrome check :");
       gets(string1);

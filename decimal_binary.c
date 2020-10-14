@@ -1,8 +1,13 @@
 #include <stdio.h>
 
+
+
 int main() {
+    /*long is equivalent to long int, here wee use long bcz of range,  
+     int: 0 to 65,535. long int: -2,147,483,647 to 2,147,483,647 */
    long number, d, rem, binaryarray[100],i=0;
-   number=10;
+   printf("enter a decimal value");
+   scanf("%ld",&number);
    d = number;
    int temp = 1;
 

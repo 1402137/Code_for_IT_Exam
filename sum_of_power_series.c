@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 
-int pow1 (int a,int n)
+int power_function (int a,int n)
 {
     int i; /* Variable used in loop counter */
     int number = 1;
 
-    for (i = 0; i < n; ++i)
+    for (i = 0; i < n; ++i)  
         number *= a;
   
     return number;
@@ -16,9 +16,11 @@ float func(int a ,int n){
     float sum=0;
     int i; 
     for ( i = 1; i <= n; i++)
-    {   int pow_val=pow1(a,i);
+    {   int powerValue=power_function(a,i); 
        
-        sum += (float)i/(float)pow_val;
+        sum += (float)i/(float)powerValue; 
+         
+
       
     }
     return sum;
@@ -26,7 +28,7 @@ float func(int a ,int n){
 }
 int main() {
     int a, n;
-    printf ("enter the value of a and n :");
+    printf ("Enter the value of a and n :");
     scanf("%d %d",&a,&n);
     printf(" the sum is %.3f",func(a,n));
     return 0;

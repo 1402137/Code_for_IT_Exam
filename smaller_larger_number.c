@@ -1,16 +1,18 @@
+//problem : find the first/second large number from the list
 #include <stdio.h>
 int main() {
     int i, n;
     int arr[100];
-    printf("Enter the number of elements (1 to 100): ");
+    printf("Enter the array size between (1 to 100): ");
     scanf("%d", &n);
 
     for (i = 0; i < n; ++i) {
-        printf("Enter number%d: ", i + 1);
+        printf("Enter number %d: ", i + 1);
         scanf("%d", &arr[i]);
     }
    // int array_element=sizeof(arr)/sizeof(int);  //for see the size of array
- 
+     
+     // u can ignore below comments
     // storing the largest number to arr[0]
     // for (i = 1; i < n; ++i) { //for first large element
     //     if (arr[0] < arr[i])

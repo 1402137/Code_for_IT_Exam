@@ -16,6 +16,6 @@ int main() {
         
     }
      
-    printf("decimal of %d is %d--:",temp_binary,decimal);  //binary to decimal
+    printf("decimal of %d is %d:",temp_binary,decimal);  //binary to decimal
     return 0;
 }
